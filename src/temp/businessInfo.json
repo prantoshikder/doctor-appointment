@@ -1,0 +1,22 @@
+{
+  "businessInfoData": [
+    {
+      "id": "1",
+      "title": "Opening Hours",
+      "subtitle": "We are open 7 days",
+      "icon": "/assets/icons/clock.svg"
+    },
+    {
+      "id": "2",
+      "title": "Visit  our location",
+      "subtitle": "180/5A, South pikePara, Mirpur-1, Dhaka-1207, Bangladesh",
+      "icon": "/assets/icons/marker.svg"
+    },
+    {
+      "id": "3",
+      "title": "Contact us Now",
+      "subtitle": "+8801849657478",
+      "icon": "/assets/icons/phone.svg"
+    }
+  ]
+}

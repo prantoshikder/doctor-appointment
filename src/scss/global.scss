@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  font-family: "Poppins", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.portfolio,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+span,
+input,
+textarea,
+div {
+  font-family: "Poppins", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.portfolio-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+
+.scrollbar {
+  // height: 100%;
+  // scrollbar-width: thin;
+  // overflow-y: auto;
+  // overflow-x: hidden;
+  // scrollbar-color: #07005b;
+
+  &.scroll-none {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &.sports-left {
+    &::-webkit-scrollbar-thumb {
+      background: #4481d6 !important;
+    }
+  }
+
+  ms &::-webkit-scrollbar-track {
+    // background: #07005b;
+    background: linear-gradient(264deg, #0540f2 -17.49%, #122662 106.46%);
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    // background: #07005b;
+    background: linear-gradient(264deg, #0540f2 -17.49%, #122662 106.46%);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    // background: #07005b;
+    background: linear-gradient(264deg, #0540f2 -17.49%, #122662 106.46%);
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge add Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #a19af9;
+  z-index: 9999;
+  box-shadow: 0 0 10px #2c3033;
+
+  .icon {
+    color: #fff;
+    font-size: 22px;
+  }
+}

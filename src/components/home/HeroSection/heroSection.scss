@@ -1,0 +1,19 @@
+.hero-container {
+  height: 100vh;
+  position: relative;
+  background-image: url(../../../../public/assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  &::after {
+    height: 100vh;
+    content: " ";
+    position: absolute;
+    top: 0;
+    width: 45%;
+    right: 0;
+    background-color: #0e1832;
+    z-index: -1;
+  }
+}

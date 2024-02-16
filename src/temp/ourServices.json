@@ -1,0 +1,22 @@
+{
+  "ourServicesData": [
+    {
+      "id": "1",
+      "title": "Fluoride Treatment",
+      "subtitle": "Lorem Ipsum is simply dummy printing <br /> and typesetting indus Ipsum has been the",
+      "icon": "/assets/images/fluoride.png"
+    },
+    {
+      "id": "2",
+      "title": "Cavity Filling",
+      "subtitle": "Lorem Ipsum is simply dummy printing <br /> and typesetting indus Ipsum has been the",
+      "icon": "/assets/images/cavity.png"
+    },
+    {
+      "id": "3",
+      "title": "Teeth Whitening",
+      "subtitle": "Lorem Ipsum is simply dummy printing <br /> and typesetting indus Ipsum has been the",
+      "icon": "/assets/images/whitening.png"
+    }
+  ]
+}
