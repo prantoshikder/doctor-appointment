@@ -6,13 +6,21 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: [
-      "/",
-      "http://",
-      "flagcdn.com",
-      "upload.wikimedia.org",
-      // "website link",
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "",
+        port: "",
+        pathname: "/",
+      },
     ],
+    // domains: [
+    //   "/",
+    //   "http://",
+    //   "flagcdn.com",
+    //   "upload.wikimedia.org",
+    //   // "website link",
+    // ],
     formats: ["image/avif", "image/webp"],
   },
   output: "standalone",

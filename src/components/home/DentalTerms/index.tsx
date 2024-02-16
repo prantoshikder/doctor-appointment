@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const DentalTerms = () => {
   return (
-    <section className="container mx-auto px-5 mb-12">
+    <section className="container mx-auto px-5 mb-14">
       <Row gutter={[40, 20]}>
         <Col xs={24} sm={24} md={12} lg={9} xl={9} xxl={9}>
           <Image

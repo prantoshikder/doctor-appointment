@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 const OurServices = () => {
   const { ourServicesData } = ourServices;
   return (
-    <section className="container mx-auto px-5 mb-12">
+    <section className="container mx-auto px-5 mb-14">
       <Heading
         title="Services we provide"
         subtitle="Our Services"
