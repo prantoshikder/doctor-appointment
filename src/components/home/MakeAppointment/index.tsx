@@ -1,3 +1,4 @@
+import Heading from "@/components/shared/Heading";
 import { Col, Row } from "antd";
 import Image from "next/image";
 
@@ -8,20 +9,22 @@ const MakeAppointment = () => {
         <Row>
           <Col xs={24} sm={24} md={24} lg={8} xl={8} xxl={8}>
             <Image
-              src="/assets/images/doctor.png"
+              src="/assets/images/doctor-small.png"
               alt="doctor image"
               height={200}
-              width={700}
-              className="h-[500px] -translate-y-[130px]"
+              width={200}
+              className="h-[500px] w-[500px] -translate-y-[100px]"
             />
           </Col>
 
           <Col xs={24} sm={24} md={24} lg={16} xl={16} xxl={16}>
-            <div className="col-md-7 text-white py-5">
-              <h5 className="text-primary text-uppercase ">Appointment</h5>
-              <h1 className="my-4">
-                Make an Appointment <br /> Today
-              </h1>
+            <div className=" py-5">
+              <Heading
+                title="Make an Appointment Today"
+                subtitle="Appointment"
+                className="justify-start items-start"
+              />
+
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
                 magnam ad consequuntur assumenda saepe hic amet nemo ea facere

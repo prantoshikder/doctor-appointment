@@ -10,7 +10,9 @@ interface IHeading {
 const Heading: FC<IHeading> = ({ title, subtitle, className }) => {
   return (
     <div
-      className={`flex flex-col ${className} justify-center items-center heading-content`}
+      className={`flex flex-col ${
+        className ? className : "justify-center items-center"
+      }   heading-content mb-12`}
     >
       <Typography.Title
         level={4}
